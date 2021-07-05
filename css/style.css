@@ -19,7 +19,7 @@ div.row {display: flex;}
 .col-12 {width: 100%;}
 
 
-/*Home*/
+/*Index*/
 .header {
     display: flex;
     position: ;
@@ -42,10 +42,10 @@ div.row {display: flex;}
     bottom: 0%;
     width: 61.27px;
     height 61.27x;
-    background-image: url("Rebirth%20logo.png");}
+    background-image: url("../data/images/Rebirth%20logo.png");}
 .rha {
-        font-weight: 900;
-        padding-top: 10px;}
+    font-weight: 900;
+    padding-top: 10px;}
 td.hom, td.prj, td.abo, td.prd, td.prg, td.blo, td.don {
     padding-left: 25px;
 padding-top: 20px;}
@@ -311,7 +311,7 @@ div.mal img {
     padding-left: 90px;
     padding-top: 20px;
     border-radius: 0px;
-    background-image: url("Rectangle%20174.png");}
+    background-image: url("../data/images/Rectangle%20174.png");}
 .tds {
     font-size: 40px;
     font-weight: 800;
@@ -345,7 +345,7 @@ div.mal img {
     padding-top: 20px;
     padding-left: 90px;
     padding-bottom: 20px;
-    background-image: url("Rectangle%20285.png");}
+    background-image: url("../data/images/Rectangle%20285.png");}
 .social {
     float: right;
     padding-right: 90px;}
@@ -358,6 +358,60 @@ p1 {float: right;}
     margin-left: 5px;
     margin-top: 10px;
     margin-bottom: 10px;}
+
+/*About*/
+.first {
+    display: flex;
+    background: #E5E5E5;}
+.vectorr {display: flex;}
+.row1, .row2 {display: flex;}
+
+/*Blog*/
+.wide {
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 600px;}
+.waa img {
+    width: 600px;
+    height: 304px;}
+.wab, .tab {
+    font-size: 20px;
+    line-height: 30px;}
+.wac, .wae, .tac {
+    color: #189B21; 
+    line-height: 40px;
+    font-weight: 600;}
+.wad {font-size: 15px;}
+.wae, .tac {margin-bottom: 60px;}
+.thin {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 300px;}
+.taa img {width: 300px;}
+
+/*Blog View*/
+.comment {background: #E5E5E5;}
+
+/*Blog View Comment*/
+.response
+
+/*Donate*/
+.hand {
+    background-image: url("../data/images/Rectangle%20252.png");}
+.pud {
+    background-color: rgba(237, 237, 237, 0.9);
+    width: 845px;
+    height: 465px;}
+.hands {
+    background-image: url("../data/images/Rectangle%20252.png");}
+
+/*Donation for Cause*/
+.pm1 {display: block;}
+
+/*Donation Sucessful*/
+.sac {
+    width: 80%;
+    background: #E5E5E5;}
 
 /*Events and Gallery*/
 .one {margin-bottom: 80px;}
@@ -404,34 +458,6 @@ p1 {float: right;}
     margin-top: 20px;
     margin-left: 20px;
     background: #F8F8F8;}
-
-/*Blog*/
-.wide {
-    margin-top: 50px;
-    margin-left: 70px;
-    width: 600px;}
-.waa img {
-    width: 600px;
-    height: 304px;}
-.wab, .tab {
-    font-size: 20px;
-    line-height: 30px;}
-.wac, .wae, .tac {
-    color: #189B21; 
-    line-height: 40px;
-    font-weight: 600;}
-.wad {font-size: 15px;}
-.wae, .tac {margin-bottom: 60px;}
-.thin {
-    margin-top: 50px;
-    margin-bottom: 60px;
-    width: 300px;}
-.taa img {width: 300px;}
-
-/*About*/
-
-
-
 
 
 
