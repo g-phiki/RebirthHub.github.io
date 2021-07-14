@@ -19,7 +19,7 @@ div.row {display: flex;}
 .col-12 {width: 100%;}
 
 
-/*Index*/
+/*index*/
 .header {
     display: flex;
     position: ;
@@ -395,6 +395,27 @@ p1 {float: right;}
 /*Blog View Comment*/
 .response
 
+/*Coming Soon*/
+.coming {
+    position: absolute;
+    width: 887px;
+    height: 639px;
+    left: 277px;
+    top: 312px;
+    background-image: url("../data/images/Asset%202soon%201.png");}
+
+/*Community*/
+.content, .dis {display: flex;}
+
+/*Counsel*/
+.b-c, .c-pat {display: flex;}
+
+/*Discussion*/
+.d-top {display: flex;}
+
+/*Discussion Comment*/
+.d-intro {display: flex;}
+
 /*Donate*/
 .hand {
     background-image: url("../data/images/Rectangle%20252.png");}
@@ -458,6 +479,26 @@ p1 {float: right;}
     margin-top: 20px;
     margin-left: 20px;
     background: #F8F8F8;}
+
+/*Track*/
+.tyd {
+    background-color: rgba(237, 237, 237, 0.9);
+    width: 420px;
+    height: 230px;
+    margin-bottom: 80px;}
+
+/*Tracking*/
+.mdon {
+    background-color: rgba(237, 237, 237, 0.9);
+    width: 550px;
+    height: 130px;
+    margin-bottom: 80px;}
+.mai, .dtr {display: flex;}
+.rav {
+    background-color: rgba(237, 237, 237, 0.9);
+    width: 550px;
+    height: 150px;
+    margin-bottom: 80px;}
 
 
 
