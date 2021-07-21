@@ -46,6 +46,7 @@ div.row {display: flex;}
 .rha {
     font-weight: 900;
     padding-top: 10px;}
+table.nav {margin-left: 70px;}
 td.hom, td.prj, td.abo, td.prd, td.prg, td.blo, td.don {
     padding-left: 25px;
 padding-top: 20px;}
@@ -53,7 +54,7 @@ padding-top: 20px;}
     color: antiquewhite;
     height: 682px;
     width: 100%;
-    background: linear-gradient(90.53deg, #189B21 5.32%, rgba(7, 7, 7, 0.91) 87.36%), url("caps.png");
+    background: linear-gradient(90.53deg, #189B21 5.32%, rgba(7, 7, 7, 0.91) 87.36%), url("../data/images/caps.png");
     background-size: cover;
     background-blend-mode: overlay;
     left: -4px;
@@ -81,13 +82,13 @@ padding-top: 20px;}
     margin-top: 50px;
     text-align: center;}
 .rac p {
-    padding-top: 10px;
+    padding-top: 6px;
     padding-left: 20px;}
 .rac img {
     width: 15px;
     height: 15px;
-    padding-left: 25px;
-    padding-top: 12px;}
+    margin-top: 10px;
+    margin-left: 15px;}
 .drt {display: flex;}
 .drtv {
     height: 15px;
@@ -140,11 +141,12 @@ padding-top: 20px;}
 .ellipse {
     margin-top: 70px;
     margin-left: 48%;}
+.shoulder {width: 100%;}
 .sust {
     display: flex;
     margin-top: 50px;}
 .surva {
-    margin-left: 70px;
+    margin-left: 170px;
     margin-top: 150px;
     width: 300px;
     height: 530px;
@@ -177,12 +179,12 @@ padding-top: 20px;}
     text-align: center;}
 .rvd p {
     padding-left: 30px;
-    padding-top: 10px;}
+    padding-top: 8px;}
 .rvd img {
     width: 15px;
     height: 15px;
-    padding-left: 25px;
-    padding-top: 12px;}
+    margin-left: 25px;
+    margin-top: 12px;}
 .survb {
     margin-left: 90px;
     margin-top: 50px;
@@ -203,19 +205,21 @@ padding-top: 20px;}
     width: 186px;
     border: 2px solid #2ABA34;
     border-radius: 60px;
-    margin-left: 42%;
+    margin-left: 45%;
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;}
 .rm p {
-    padding-top: 10px;
+    padding-top: 8px;
     padding-left: 30px;}
 .rm img {
     width: 15px;
     height: 15px;
-    padding-left: 25px;
-    padding-top: 12px;}
-.chest {padding-top: 20px;}
+    margin-left: 25px;
+    margin-top: 12px;}
+.chest {
+    padding-top: 20px;
+    width: 100%;}
 .ve {display: flex;}
 .vec p {
     color: #189B21;
@@ -227,19 +231,18 @@ padding-top: 20px;}
 .vecto {
     padding-left: 20px;
     font-size: 12px;}
-.big img {
-    padding-left: 60px;
+.big {
+    padding-left: 50px;
     height: 90%;
-    width: 90%;}
-.small img {
+    width: 55%;}
+.small {
     padding-top: 90px;
-    height: 60%;
-    width: 100%;}
+    width: 45%;}
 .belly {
     color: antiquewhite;
     height: 300px;
-    width: 1250px;
-    background: linear-gradient(90.53deg, #189B21 5.32%, rgba(7, 7, 7, 0.91) 87.36%), url("Rectangle 287.png");
+    width: 100%;
+    background: linear-gradient(90.53deg, #189B21 5.32%, rgba(7, 7, 7, 0.91) 87.36%), url("../data/images/Rectangle 287.png");
     background-blend-mode: overlay;}
 .das {
     font-size: 40px;
@@ -256,21 +259,22 @@ padding-top: 20px;}
     display: flex;
     height: 40px;
     width: 186px;
-    left: 689px;
-    top: 4634px;
     background: #189B21;
     border-radius: 60px;
     margin-left: 50px;
     margin-top: 30px;
-    padding-top: 20px;
     text-align: center;}
-.dasdn p {padding-left: 15px;}
+.dasdn p {
+    margin-top: 8px;
+    margin-left: 25px;}
 .dasdn img {
     width: 15px;
     height: 15px;
-    padding-left: 25px;
-    padding-top: 0px;}
-.waist {padding-top: 80px;}
+    margin-left: 30px;
+    margin-top: 12px;}
+.waist {
+    width: 100%;
+    padding-top: 80px;}
 .wwa {
     margin-left: 30px;
     font-size: 20px;
@@ -281,9 +285,7 @@ padding-top: 20px;}
     font-size: 40px;
     text-align: center;
 margin-top: 30px;}
-.lidsa {
-    text-align: left;
-    margin-left: 60px; }
+.lidsa {text-align: left;}
 .mal {
     display: flex;
     height: 40px;
@@ -292,22 +294,18 @@ margin-top: 30px;}
     background: #189B21;
     border-radius: 60px;
     margin-left: 60px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-top: 20px;
-    padding-left: 20px;}
-div.mal img {
-    height: 16px;
-    width: 16px;}
-.col-7 img {
-    width: 500px;
-    height: 500px;
-    margin-left: 150px;}
+    margin-top: 40px;}
+.mal p {
+    font-size: 15px;
+    margin-top: 8px;
+    margin-left: 25px;}
+.a {margin-left: 100px;}
+.b img {height: 80%;}
 .thigh {
     display: flex;
     color: antiquewhite;
     height: 100px;
-    width: 1159px;
+    width: 100%;
     padding-left: 90px;
     padding-top: 20px;
     border-radius: 0px;
@@ -327,16 +325,17 @@ div.mal img {
     margin-left: 70px;
     margin-top: 10px;
     text-align: center;}
-.p {
+.tdn p {
     padding-top: 10px;
     padding-left: 25px;}
 .tdn img {
     width: 15px;
     height: 15px;
-    padding-left: 25px;
-    padding-top: 12px;}
+    margin-left: 25px;
+    margin-top: 12px;}
 .vector {display: flex;}
 .foot {
+    width: 100%;
     display: flex;
     text-align: left;
     background-color: forestgreen;

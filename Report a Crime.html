@@ -46,58 +46,116 @@
             </div>
         </div>
     </div>
-    <div>
-    <form action="" method="post" style="width: 480px; background: #EDEDED;">
-        <div style="display: flex;">
-        <p style="margin-right: 47px;">Name</p>
-        <input name="a-name" id="fname" style="width:350px; height:30px; background-color:white; color:black; font:Nunito;"/>
+    <p>Incident Report Form</p>
+    <form action="" method="post" style="width: 1050px; background: #EDEDED; display: flex;">
+        <div>
+        <p style="margin-right: 47px;">What  are you Reporting?*</p>
+        <select name="iy-city" id="fname" style="width:350px; height:30px; background-color:white; color:black; display: block; font:Nunito;"></select>
         </div>
-        <div style="display: flex;">
-        <p style="margin-right: 62px;">Age</p><input name="a-age" id="fname" style="width:350px; height:30px; background-color:white; color:black; font:Nunito;"/>
+        <div>
+        <p style="margin-right: 62px;">Where did the incident Occur?*</p>
+        <input name="a-age" id="fname" style="width:350px; height:30px; background-color:white; color:black; font:Nunito;"/>
         </div>
-        <div style="display: flex;">
-        <p style="margin-right: 25px;">Category</p><input name="a-category" id="fname" style="width:350px; height:30px; background-color:white; color:black; font:Nunito;"/>
-        </div>
-        <div style="display: flex;">
-        <p style="margin-right: 19px;">Phone No</p><input name="a-no" id="fname" style="width:350px; height:30px; background-color:white; color:black; font:Nunito;"/>
-        </div>
-        <button type="button" class="btn btn-success">PROCEED</button>
     </form>
-    </div>
-      
-     <form action="" method="post" style="width: 1050px; background: #EDEDED;">
-            <p>Victim Information ?*</p>
-            <div style="display: flex;">
+    <form action="" method="post" style="width: 1050px; background: #EDEDED;">
+        <div>
+        <p style="margin-right: 47px;">Please specify as many details as possible*</p>
+        <input placeholder="Please describe the incident you are reporting" name="a-name" id="fname" style="width:350px; height:83px; background-color:white; color:black; font:Nunito;"/>
+        </div>
+        <div>
+        <p style="margin-right: 62px;">Approximate Date and Time of the Incident?*</p>
+        <select name="iy-city" id="fname" style="width:350px; height:30px; background-color:white; color:black; display: block; font:Nunito;"></select>
+        </div>
+    </form>
+    <form action="" method="post" style="width: 1050px; background: #EDEDED;">
+        <div>
+        <p style="margin-right: 47px;">Do you have information about one or more individuals involved in the reported incident?*</p>
+        <input type="button" value="Yes" name="yes"/>
+        <input type="button" style="background: green;" value="No" name="no"/>
+        </div>
+    </form>
+    <form action="" method="post" style="width: 1050px; background: #EDEDED;">
+        <p>If you wish, please leave your contact information with the report</p>
+        <div style="display: flex;">
             <div class="col-2">
-            <p>Relationship to you</p>
             <p>First Name</p>
-            <p>Approximate Age</p>
+            <p>DOB</p>
             <p>Address</p>
             <p>City</p>
             <p>State</p>
             <p>Phone Number</p>
-            <p>Additional Information</p>
+            <p>E-mail Address</p>
             </div>
             <div  class="col-10">
-            <input name="iy-name" id="fname" style="width:350px; height:30px; background-color:white; color:black; display: block; font:Nunito;"/>
             <div style="display: flex;">
                 <input name="iy-state" id="fname" style="width:350px; height:30px; background-color:white; color:black; font:Nunito;"/>
                 <p>Last Name</p>
                 <input name="iy-zc" id="fname" style="width:350px; height:30px; background-color:white; color:black; font:Nunito;"/>
             </div>
-            <input name="iy-age" id="fname" style="width:350px; height:30px; background-color:white; color:black; display: block; font:Nunito;"/>
+            <input placeholder="DD-MM-YY" name="iy-age" id="fname" style="width:350px; height:30px; background-color:white; color:black; display: block; font:Nunito;"/>
             <input name="iy-add" id="fname" style="width:350px; height:30px; background-color:white; color:black; display: block; font:Nunito;"/>
-            <input name="iy-city" id="fname" style="width:350px; height:30px; background-color:white; color:black; display: block; font:Nunito;"/>
+            <select name="iy-city" id="fname" style="width:350px; height:30px; background-color:white; color:black; display: block; font:Nunito;"></select>
             <div style="display: flex;">
                 <input name="iy-state" id="fname" style="width:350px; height:30px; background-color:white; color:black; font:Nunito;"/>
                 <p>Zip Code</p>
                 <input name="iy-zc" id="fname" style="width:350px; height:30px; background-color:white; color:black; font:Nunito;"/>
             </div>
             <input name="iy-num" id="fname" style="width:350px; height:30px; background-color:white; color:black; display: block; font:Nunito;"/>
-            <input name="iy-ai" id="fname" style="width:350px; height:90px; background-color:white; color:black; display: block; font:Nunito;"/>
             </div>
             </div>
-        </form>
+        <p>Upon review of your report, we may want to contact you to request or offer more information. You may opt out of contact below</p>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">Phone</label>
+        </div>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">E-mail</label>
+        </div>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option3">
+        <label class="form-check-label" for="inlineCheckbox3">Either</label>
+        </div>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option4">
+        <label class="form-check-label" for="inlineCheckbox4">None</label>
+        </div>
+    </form>
+    <form action="" method="post" style="width: 1050px; background: #EDEDED;">
+        <div>
+        <p style="margin-right: 47px;">Is there anything else you would like to include in this report?</p>
+        <input name="a-name" id="fname" style="width:350px; height:83px; background-color:white; color:black; font:Nunito;"/>
+        </div>
+    </form>
+    <form action="" method="post" style="width: 1050px; background: #EDEDED;">
+        <p>Have you reported this incident to a law enforcement agency?</p>
+        <input type="button" style="background: rgba(42, 186, 52, 0.1);" value="Yes" name="yes"/>
+        <input type="button" value="No" name="no"/>
+        <div style="display: flex;">
+        <div class="col-2">
+            <p>Name of Agency</p>
+            <p>Agency Adress</p>
+            <p>City</p>
+            <p>Phone Number</p>
+            <p>E-mail Address</p>
+            </div>
+        <div  class="col-10">
+            <input name="iy-name" id="fname" style="width:350px; height:30px; background-color:white; color:black; display: block; font:Nunito;"/>
+            <input name="iy-age" id="fname" style="width:350px; height:30px; background-color:white; color:black; display: block; font:Nunito;"/>
+            <div style="display: flex;">
+                <input name="iy-state" id="fname" style="width:350px; height:30px; background-color:white; color:black; font:Nunito;"/>
+                <p>State</p>
+                <input name="iy-zc" id="fname" style="width:350px; height:30px; background-color:white; color:black; font:Nunito;"/>
+            </div>
+            <input name="iy-add" id="fname" style="width:350px; height:30px; background-color:white; color:black; display: block; font:Nunito;"/>
+            <input name="iy-city" id="fname" style="width:350px; height:30px; background-color:white; color:black; display: block; font:Nunito;"/>
+            </div>
+        </div>
+    </form>
+    <div style="display: flex;">
+    <button type="button" class="btn btn-success" style="background: white; color: black;">Back</button>
+    <button type="button" class="btn btn-success">Submit</button>
+    </div>
     <div class="thigh">
         <div class="tds">
         <p>Donate and Support</p>
