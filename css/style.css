@@ -3,7 +3,22 @@ body {margin: 0px;
 p {margin: 0;}
 a, a:hover, a:active {text-decoration: none;
 color: black;}
-div.row {display: flex;}
+input, button, textarea, select {
+    height: 40px;
+    border-width: 0px;
+    border-radius: 12px;
+    resize: none;
+    overflow: hidden;
+    padding-top: 6px;
+    padding-left: 6px;}
+.row {display: flex;}
+.buttons {
+    background: #189B21;
+    color: white;
+    border-radius: 35px;
+    padding-top: 6px;
+    height: 40px;
+    text-align: center;}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -357,6 +372,12 @@ p1 {float: right;}
     margin-left: 5px;
     margin-top: 10px;
     margin-bottom: 10px;}
+.letter-address {
+    background: linear-gradient(180deg, #189B21 -49.12%, #013F05 72.6%);
+    border-width: 2px;
+    width: 250px;
+    height: 35px;
+    border-color: white;}
 
 /*About*/
 .first {
@@ -368,7 +389,7 @@ p1 {float: right;}
 /*Blog*/
 .wide {
     margin-top: 50px;
-    margin-left: 70px;
+    margin-left: 120px;
     width: 600px;}
 .waa img {
     width: 600px;
@@ -389,10 +410,71 @@ p1 {float: right;}
 .taa img {width: 300px;}
 
 /*Blog View*/
-.comment {background: #E5E5E5;}
+.b-view {
+    width: 80%;
+    margin-left: 10%;}
+.b-view-topic {
+    margin-left: 10%;
+    font-weight: bolder;
+    font-size: 31px;
+    margin-top: 30px;}
+.b-view-author {
+    margin-left: 10%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;}
+.b-view-article {
+    margin-left: 10%;
+    margin-top: 30px;}
+.b-view-response {
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 60px;
+    margin-bottom: 60px;}
+.comment {
+    width: 80%;
+    background: #E5E5E5;
+    margin-left: 10%;
+    margin-bottom: 40px;}
+.comment-topic {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 60px;}
+.comment-firstname {
+    width: 400px;
+    margin-left: 60px;}
+.comment-lastname {
+    width: 400px;
+    margin-left: 70px;}
+.comment-email {
+    width: 872px;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;}
+.comment-response {
+    width:872px;
+    margin-left: 60px;
+    height: 160px;
+    font-size: 13px;
+    margin-bottom: 30px;}
+.form-submit {
+    margin-left: 800px;
+    margin-bottom: 40px;
+    width: 80px;}
+
 
 /*Blog View Comment*/
-.response
+.response-comment {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    text-align: justify;}
+.response-id {
+    margin-left: 10%;
+    width: 80%;
+    text-align: right;
+    margin-bottom: 100px;
+    }
 
 /*Book an Appointment*/
 .shop 
