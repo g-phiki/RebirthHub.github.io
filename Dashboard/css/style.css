@@ -1,0 +1,93 @@
+body {    font-family: 'Nunito';}
+a, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;}
+.board {
+    color: white;
+    width: 100%;
+    background: linear-gradient(90.53deg, #189B21 5.32%, rgba(7, 7, 7, 0.91) 87.36%);}
+.first {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 50px;}
+.second {
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 50px;}
+.third {
+    display: flex;
+    height: 45px;
+    width: 186px;
+    border: 3px solid antiquewhite;
+    border-radius: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;}
+.third p {
+    padding-top: 7px;
+    padding-left: 25px;}
+.third img {
+    width: 15px;
+    height: 15px;
+    margin-top: 12px;
+    margin-left: 15px;}
+.fourth {
+    display: flex;
+    flex-wrap: wrap;}
+.drtv {
+    height: 30px;
+    width: 100px;
+    background-color: antiquewhite;
+    border-radius: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;}
+.drtv p, .drrc p, .drtt p, .drvv p {
+    padding-top: 5px;
+    color: #189B21;
+    font-size: 12px;}
+.tv p{
+    font-size: 9px;
+    margin-left: 50px;
+    margin-top: 5px;}
+.drrc {
+    height: 30px;
+    width: 120px;
+    background-color: antiquewhite;
+    border-radius: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;}
+.drtt {
+    height: 30px;
+    width: 120px;
+    background-color: antiquewhite;
+    border-radius: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;}
+.drvv {
+    height: 30px;
+    width: 120px;
+    background-color: antiquewhite;
+    border-radius: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;}
+.fifth {
+    margin-top: 40px;
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;}
+
+@media screen and (min-width:601px) { .first {font-size: 60px;}}
+
+@media screen and (max-width:600px) { .first {font-size: 40px;
+          line-height: 35px;}}
