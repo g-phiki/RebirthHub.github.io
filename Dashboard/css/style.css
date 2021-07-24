@@ -1,18 +1,19 @@
 body {    font-family: 'Nunito';}
 a, a:hover, a:active {
     text-decoration: none;
-    color: inherit;}
+    color: white;}
 .board {
     color: white;
     width: 100%;
     background: linear-gradient(90.53deg, #189B21 5.32%, rgba(7, 7, 7, 0.91) 87.36%);}
 .first {
+    padding-top: 30px;
+    padding-left: 50px;}
+h1 {
     font-size: 60px;
     font-weight: 800;
     line-height: 60px;
-    text-align: left;
-    padding-top: 30px;
-    padding-left: 50px;}
+    text-align: left;}
 .second {
     font-size: 25px;
     line-height: 30px;
@@ -23,7 +24,7 @@ a, a:hover, a:active {
     display: flex;
     height: 45px;
     width: 186px;
-    border: 3px solid antiquewhite;
+    border: 3px solid white;
     border-radius: 40px;
     margin-left: 50px;
     margin-top: 30px;
@@ -38,56 +39,49 @@ a, a:hover, a:active {
     margin-left: 15px;}
 .fourth {
     display: flex;
-    flex-wrap: wrap;}
-.drtv {
-    height: 30px;
-    width: 100px;
-    background-color: antiquewhite;
+    flex-wrap: wrap;
+    padding-top: 50px;}
+.btn {
     border-radius: 60px;
-    margin-left: 50px;
-    margin-top: 50px;
-    text-align: center;}
-.drtv p, .drrc p, .drtt p, .drvv p {
-    padding-top: 5px;
+    background-color: white;
+    padding: 6px;
     color: #189B21;
-    font-size: 12px;}
-.tv p{
+    font-size: 15px;
+    font-weight:900;
+    text-align: center;
+    margin-left: 50px;
+    width: 150px;}
+.tv {
     font-size: 9px;
     margin-left: 50px;
-    margin-top: 5px;}
-.drrc {
-    height: 30px;
-    width: 120px;
-    background-color: antiquewhite;
-    border-radius: 60px;
-    margin-left: 50px;
-    margin-top: 50px;
-    text-align: center;}
-.drtt {
-    height: 30px;
-    width: 120px;
-    background-color: antiquewhite;
-    border-radius: 60px;
-    margin-left: 50px;
-    margin-top: 50px;
-    text-align: center;}
-.drvv {
-    height: 30px;
-    width: 120px;
-    background-color: antiquewhite;
-    border-radius: 60px;
-    margin-left: 50px;
-    margin-top: 50px;
-    text-align: center;}
+    margin-top: 5px;
+    margin-bottom: 25px;}
 .fifth {
     margin-top: 40px;
     display: block;
-    width: 100px;
+    width: 150px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;}
 
-@media screen and (min-width:601px) { .first {font-size: 60px;}}
 
-@media screen and (max-width:600px) { .first {font-size: 40px;
-          line-height: 35px;}}
+@media screen and (max-width:300px) { 
+  h1 {
+    font-size: 35px;
+    line-height: 45px;}
+  .second, .first {padding: 25px;}
+    .second {font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;}
+  }
+
+@media screen and (min-width:300px) { 
+  h1 {
+    font-size: 35px;
+    line-height: 45px;}
+  .second, .first {padding: 25px;}
+    .second {font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;}
+  }
+
