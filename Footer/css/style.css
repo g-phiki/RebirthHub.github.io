@@ -1,7 +1,4 @@
-body {    font-family: 'Nunito';}
-a, a:hover, a:active {
-    text-decoration: none;
-    color: white;}
+body {font-family: 'Nunito';}
 input, button, textarea, select {
     height: 40px;
     border-width: 0px;
@@ -10,49 +7,18 @@ input, button, textarea, select {
     overflow: hidden;
     padding-top: 6px;
     padding-left: 6px;}
-.row {display: flex;}
-.buttons {
-    background: #189B21;
-    color: white;
-    border-radius: 35px;
-    padding-top: 6px;
-    height: 40px;
-    text-align: center;}
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-6-1 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
 
 .foot {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
     text-align: left;
     background-color: forestgreen;
-    color: antiquewhite;
+    color: white;
     text-decoration: none;
     padding-top: 20px;
-    padding-left: 90px;
-    padding-bottom: 20px;
-    background-image: url("../data/images/Rectangle%20285.png");}
-.social {
-    float: right;
-    padding-right: 90px;}
-p1 {float: right;}
+    padding-bottom: 20px;}
+.social {padding-right: 90px;}
 .social img {
-    float: right;
-    width: 20px;
-    height: 20px;
+    width: 25px;
     margin-right: 5px;
     margin-left: 5px;
     margin-top: 10px;
@@ -60,6 +26,19 @@ p1 {float: right;}
 .letter-address {
     background: linear-gradient(180deg, #189B21 -49.12%, #013F05 72.6%);
     border-width: 2px;
-    width: 250px;
-    height: 35px;
+    width: 350px;
+    height: 38px;
     border-color: white;}
+
+
+@media screen and (max-width:600px) { 
+    .a {width: 100%;}
+    .letter-address {width: 250px;
+    margin-top: 50px;}
+    .b {width: 100%;}
+  }
+
+@media screen and (min-width:300px) { 
+   
+  }
+
