@@ -16,7 +16,7 @@ input, button, textarea, select {
     text-decoration: none;
     padding-top: 20px;
     padding-bottom: 20px;}
-.social {padding-right: 90px;}
+.social {justify-content: space-between;}
 .social img {
     width: 25px;
     margin-right: 5px;
@@ -29,6 +29,7 @@ input, button, textarea, select {
     width: 350px;
     height: 38px;
     border-color: white;}
+.k {text-align: right;}
 
 
 @media screen and (max-width:600px) { 
@@ -36,9 +37,10 @@ input, button, textarea, select {
     .letter-address {width: 250px;
     margin-top: 50px;}
     .b {width: 100%;}
+    .k {text-align: left;}
   }
 
-@media screen and (min-width:300px) { 
-   
+@media screen and (min-width:600px) { 
+    
   }
 
