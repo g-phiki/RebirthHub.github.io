@@ -1,0 +1,60 @@
+body {    font-family: 'Nunito';}
+a, a:hover, a:active {
+    text-decoration: none;
+    color: white;}
+.board {
+    color: black;
+    width: 100%;
+    background: white;
+    background-image: url("../data/images/pngwing%207.png");}
+h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: left;
+    margin: 80px;}
+.btn {
+    border: 2px solid #0C5C4C;
+    padding: 6px;
+    font-size: 15px;
+    font-weight:900;
+    text-align: center;
+    width: 150px;
+    margin-top: 10px;}
+.a {
+    background-color: #0C5C4C;
+    color: white;
+    margin-left: 80px;}
+.b {
+    background-color: white;
+    color: #0C5C4C;
+    margin-left: 20px;}
+.third {
+    margin-top: 40px;
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;}
+.third img {
+    width: 15px;
+    height: 15px;
+    margin-top: 12px;
+    margin-left: 15px;}
+
+
+@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 425px) {}
+@media screen and (max-width: 414px) {}
+@media screen and (max-width: 411px) {
+     h1 {
+    font-size: 47px;
+    line-height: 45px;
+    margin: 40px;}
+  .btn {margin: 40px;}
+  }
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 360px) {}
+@media screen and (max-width: 320px) {}
+   
